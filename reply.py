@@ -17,6 +17,8 @@ from aiocqhttp.exceptions import Error as CQHttpError
 from query_reaperstash import query_theme
 
 import pandas as pd
+import numpy as np
+import synonyms
 
 SUPERUSERS = list(SUPERUSERS)[0]
 
@@ -63,32 +65,61 @@ async def _(ctx: Context_T):
                 elif at_qq_list_all == []:
                     at_qq_cqcode = ''
 
-                for i, r in reply_df.iterrows():
-                    if r.keyword in ctx['raw_message']:
-                        content = '\n' + r.reply_content
-                        if '{}' in content:
-                            content = content.format(data['version'])
-                        await bot.send_group_msg(
-                            group_id=ctx['group_id'],
-                            message='[CQ:at,qq={}] {} {}'.format(
-                                    ctx['user_id'],
-                                    at_qq_cqcode,
-                                    content
-                            )
-                        )
+                msg = re.sub('\[cq.*?\]', '', ctx['raw_message'])
+                msg = msg.strip()
+                msg = msg.replace('reaper', '')
 
-                l1 = [
-                    '最强',
-                    '最好',
-                    '最棒',
-                    '最佳',
-                    'best',
-                ]
-                l2 = [
-                    'daw',
-                    '宿主',
-                ]
-                if any(x in ctx['raw_message'] for x in l1) and any(x in ctx['raw_message'] for x in l2):
-                    content = '\r\n' \
-                              '最好的DAW是REAPER'
-                    await bot.send_group_msg(group_id=ctx['group_id'], message='[CQ:at,qq={}] {} {}'.format(ctx['user_id'], at_qq_cqcode, content))
+                def get_match_corpus(df, msg):
+
+                    full_match_df = df[df.keyword.isin([msg])]
+                    if full_match_df.shape[0] == 1:
+                        if full_match_df.match_type.values[0] == 'full':
+                            return full_match_df.reply_content.values[0], 'content'
+
+                    dfs = []
+                    for i, r in df.iterrows():
+                        if pd.isnull(r.match_1):
+                            continue
+                        m1_list = r.match_1.split(',')
+                        for x in m1_list:
+                            if x in msg:
+                                dfs.append(df.iloc[[i, ]])
+                                continue
+
+                    #logging.warning(dfs)
+                    all_df = pd.concat(dfs)
+
+                    if pd.isnull(all_df.match_1_weight) is False:
+                        fin_df = all_df[all_df.match_1_weight ==
+                                        all_df.match_1_weight.max()]
+                        if fin_df.shape[0] != 0:
+                            return fin_df.corpus.values[0], 'corpus', fin_df.reply_content.values[0]
+                    return all_df.corpus.values[0], 'corpus', all_df.reply_content.values[0]
+
+                pre_compare = get_match_corpus(reply_df, msg)
+
+                def get_reply_content(pre_compare, msg):
+                    if pre_compare[1] == 'content':
+                        return pre_compare[0]
+                    elif pre_compare[1] == 'corpus':
+                        ori_list = pre_compare[0].split(',')
+
+                        for x in ori_list:
+                            point = synonyms.compare(msg, x, seg=True)
+                            if point >= 0.3:
+                                return pre_compare[2]
+                            return None
+                reply_content = get_reply_content(pre_compare, msg)
+
+                if reply_content is not None:
+                    content = '\n' + reply_content
+                    if '{}' in content:
+                        content = content.format(data['version'])
+                    await bot.send_group_msg(
+                        group_id=ctx['group_id'],
+                        message='[CQ:at,qq={}] {} {}'.format(
+                            ctx['user_id'],
+                            at_qq_cqcode,
+                            content
+                        )
+                    )
