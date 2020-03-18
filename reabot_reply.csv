@@ -1,4 +1,4 @@
-keyword,reply_content
+keyword,reply_content,match_type,corpus,match_1,match_1_weight,match_2
 help,"@我并发送：
 help – 帮助信息
 版本 – 获取当前版本号及日志
@@ -8,31 +8,30 @@ help – 帮助信息
 频谱 - REAPER 也可以使用频谱
 侧链 – 如何在REAPER使用侧链
 主题 – 官方主题库
-     - 发送@我「找主题+主题名」"
+     - 发送@我「找主题+主题名」",full,,,,
 版本,"REAPER最新版本为：【{}】
-点击查看更新了什么：https://lado.me/reaper-whatsnew"
-文档,Ryusa制作的REAPER中文文档：http://docs.reaget.com
+点击查看更新了什么：https://lado.me/reaper-whatsnew",part,"现在版本,更新版本,目前版本,最新版本,当前版本,什么版本,多少版本",版本,,
+文档,Ryusa制作的REAPER中文文档：http://docs.reaget.com,part,"有文档,文档地址,文档网址,文档网站",文档,,
 教程,"群友的专栏/博客：
 Moy专栏：http://zhuanlan.zhihu.com/reaper
 RCJacH博客：https://rcjach.github.io/cn/
 K酱博客：http://blog.reamix.org/
 Ryusa中文文档：http://docs.reaget.com
 官方视频: http://reaper.fm/videos.php
-REAPER 基础视频教程（中文字幕）by MidiSoft https://space.bilibili.com/415622576/video"
+REAPER 基础视频教程（中文字幕）by MidiSoft https://space.bilibili.com/415622576/video",part,"视频教程,有没有教程,最新教程,官方教程,哪里教程,自学教程,自学教材",教程,60,
 视频,"如何导入任意格式的视频？https://zhuanlan.zhihu.com/p/31274984
-让REAPER支持更多视频格式 https://www.soundengine.cn/topic/24/%E8%AE%A9reaper%E6%94%AF%E6%8C%81%E6%9B%B4%E5%A4%9A%E8%A7%86%E9%A2%91%E6%A0%BC%E5%BC%8F-%E7%A7%BB%E5%8A%A8%E4%BE%BF%E6%90%BA%E7%89%88%E7%AF%87"
-批处理,REAPER Regions Export：https://zhuanlan.zhihu.com/p/32206947
-频谱,频谱编辑：https://zhuanlan.zhihu.com/p/32101728
-信号流,REAPER信号流程图：https://reaperblog.net/wp-content/uploads/2013/04/reaper_signal-flow.jpg
-剁手,REAPER剁手指南：https://zhuanlan.zhihu.com/p/40136890
-midi键盘,为什么midi键盘没有声音：https://zhuanlan.zhihu.com/p/64069221
-介绍,REAPER介绍：https://www.zhihu.com/question/65865600/answer/244143880
-字幕,REAPER实现字幕：https://zhuanlan.zhihu.com/p/48292367
-按钮,REAPER快捷操作按钮：https://zhuanlan.zhihu.com/p/51682487
+让REAPER支持更多视频格式 https://www.soundengine.cn/topic/24/%E8%AE%A9reaper%E6%94%AF%E6%8C%81%E6%9B%B4%E5%A4%9A%E8%A7%86%E9%A2%91%E6%A0%BC%E5%BC%8F-%E7%A7%BB%E5%8A%A8%E4%BE%BF%E6%90%BA%E7%89%88%E7%AF%87",part,"视频格式,导入视频,视频格式",视频,20,
+批处理,REAPER Regions Export：https://zhuanlan.zhihu.com/p/32206947,part,"批量导出,批量处理","导出,处理",,批量
+频谱,频谱编辑：https://zhuanlan.zhihu.com/p/32101728,part,"频谱编辑,光谱编辑",频谱,,
+信号流,REAPER信号流程图：https://reaperblog.net/wp-content/uploads/2013/04/reaper_signal-flow.jpg,part,"信号流程,信号流",信号,,
+剁手,REAPER剁手指南：https://zhuanlan.zhihu.com/p/40136890,part,"剁手,买,购,打折","剁手,购买,打折",,
+midi键盘,为什么midi键盘没有声音：https://zhuanlan.zhihu.com/p/64069221,part,"midi键盘没有声音,midi键盘无声,midi键盘没有声",midi键盘,60,
+介绍,REAPER介绍：https://www.zhihu.com/question/65865600/answer/244143880,full,,,,
+字幕,REAPER实现字幕：https://zhuanlan.zhihu.com/p/48292367,part,"视频字幕,添加字幕,说明字幕,字幕,做字幕",字幕,30,
+按钮,REAPER快捷操作按钮：https://zhuanlan.zhihu.com/p/51682487,part,"操作按钮,快捷按钮,按钮,顶部按钮,顶上按钮",按钮,50,
 侧链,"REAPER的的侧链功能：https://docs.reaget.com/sidechain_in_reaper.html
 How to Sidechain with 3rd party FX in REAPER：https://reaperblog.net/2017/07/sidechain_routing_again/
-How To Sidechain In REAPER DAW 2019 - Compression and Gating 3 ways：https://reaperblog.net/2019/11/sidechain-2019/"
-midi输入,为插件设置多路输入：https://docs.reaget.com/multi-input_for_plugins.html
-midi输出,为插件设置多路输入：https://docs.reaget.com/multi-output_for_plugins.html
-多通道,REAPER 的路由：https://docs.reaget.com/reaper_routing.html
-路由,REAPER 的路由：https://docs.reaget.com/reaper_routing.html
+How To Sidechain In REAPER DAW 2019 - Compression and Gating 3 ways：https://reaperblog.net/2019/11/sidechain-2019/",part,"侧链,sidechain","侧链,sidechain",30,
+midi输入,为插件设置多路输入：https://docs.reaget.com/multi-input_for_plugins.html,part,midi输入,输入,20,midi
+midi输出,为插件设置多路输出：https://docs.reaget.com/multi-output_for_plugins.html,part,midi输出,输出,20,midi
+路由,REAPER 的路由：https://docs.reaget.com/reaper_routing.html,part,"路由,多通道","路由,多通道",,
