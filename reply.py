@@ -108,7 +108,7 @@ async def _(ctx: Context_T):
                             point = synonyms.compare(msg, x, seg=True)
                             if point >= 0.3:
                                 return pre_compare[2]
-                            return None
+                        return None
                 reply_content = get_reply_content(pre_compare, msg)
 
                 if reply_content is not None:
