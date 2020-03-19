@@ -85,8 +85,11 @@ async def _(ctx: Context_T):
                             if x in msg:
                                 dfs.append(df.iloc[[i, ]])
                                 continue
+                            elif synonyms.compare(msg, x, seg=True) >= 0.7:
+                                dfs.append(df.iloc[[i, ]])
+                                continue
 
-                    #logging.warning(dfs)
+                    # logging.warning(dfs)
                     all_df = pd.concat(dfs)
 
                     if pd.isnull(all_df.match_1_weight) is False:
