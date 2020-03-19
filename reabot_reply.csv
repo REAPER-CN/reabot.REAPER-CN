@@ -35,4 +35,4 @@ How To Sidechain In REAPER DAW 2019 - Compression and Gating 3 ways：https://re
 midi输入,为插件设置多路输入：https://docs.reaget.com/multi-input_for_plugins.html,part,midi输入,输入,20,midi
 midi输出,为插件设置多路输出：https://docs.reaget.com/multi-output_for_plugins.html,part,midi输出,输出,20,midi
 路由,REAPER 的路由：https://docs.reaget.com/reaper_routing.html,part,"路由,多通道","路由,多通道",,
-插件离线,通过将插件离线来解决音源无限延音的问题：https://docs.reaget.com/solve_stuck_notes.html,part,"音源bug,无限延音,停不下来",bug,10,
+插件离线,通过将插件离线来解决音源无限延音的问题：https://docs.reaget.com/solve_stuck_notes.html,part,"音源bug,无限延音,停不下来","bug,无限延音",10,
