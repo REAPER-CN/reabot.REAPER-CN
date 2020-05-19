@@ -38,3 +38,4 @@ midi输出,为插件设置多路输出：https://docs.reaget.com/multi-output_fo
 无限延音,通过将插件离线来解决音源无限延音的问题：https://docs.reaget.com/solve_stuck_notes.html,part,"插件离线,音源bug,无限延音,停不下来","bug,无限延音",10,
 子工程,Subproject 的简单运用：https://github.com/REAPER-CN/Sub-Fun,part,"子工程,subproject","子工程,subproject",30,
 安装扩展,如何安装REAPER各类扩展(VLC FFMPEG SWS REAPACK)：https://www.youtube.com/watch?v=gVbMbqGSB7E,part,"扩展,vlc,ffmpeg,sws,reapack",安装,30,
+波形缓存,如何管理波形缓存的生成路径：https://zhuanlan.zhihu.com/p/32447322（条目：把所有波形文件都放到另外的文件夹中）,part,"波形,缓存,reapeaks",路径,30,
