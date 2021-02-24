@@ -55,15 +55,15 @@ loop – item怎么取消循环
 全局设置：
 1. 打开Preferences
 2. Project → Media Item Defaults
-3. 按需取消对应item类型的Loop source",part,"loop,循环",日经,30,
+3. 按需取消对应item类型的Loop source",part,"loop,循环",日经,31,
 日经ripple,"方法1：
 左上角找到Ripple editing，点灭图标取消，点亮图标开启（2个状态）。
 
 方法2：
-打开action list，搜索ripple editing，有更详细丰富的选择。",part,"ripple,波纹编辑,ripple edit",日经,30,
+打开action list，搜索ripple editing，有更详细丰富的选择。",part,"ripple,波纹编辑,ripple edit",日经,32,
 日经播放光标,"按空格键为停止，光标回到播放初始位置；
 按Enter（回车键）为暂停，光标在暂停位置；
-可在action list搜索对应快捷键进行修改。",part,"播放光标,播放指针",日经,30,
+可在action list搜索对应快捷键进行修改。",part,"播放光标,播放指针",日经,33,
 日经更改鼠标,"方法1（推荐）：
 1. 打开Preferences
 2. Editing Behavior → Mouse Modifiers
@@ -72,4 +72,4 @@ loop – item怎么取消循环
 方法2：
 1. 打开action list
 2. 搜索具体鼠标动作
-3. 该方式适合在工具栏定制鼠标动作",part,"更改鼠标,修改鼠标操作,更改鼠标操作,修改鼠标",日经,30,
+3. 该方式适合在工具栏定制鼠标动作",part,"更改鼠标,修改鼠标操作,更改鼠标操作,修改鼠标",日经,34,
