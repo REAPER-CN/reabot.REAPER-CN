@@ -121,6 +121,7 @@ async def _(ctx: Context_T):
                     fin_content = get_reply_content(x, msg)
                     if fin_content != None:
                         reply_content = fin_content
+                        break
                     else:
                         reply_content = None
 
