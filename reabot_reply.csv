@@ -1,6 +1,7 @@
 keyword,reply_content,match_type,corpus,match_1,match_1_weight,match_2
 help,"@我并发送：
 help – 帮助信息
+日经 – 各种日经问题解答
 版本 – 获取当前版本号及日志
 教程 - 所有 REAPER 教程
 视频 - REAPER 里与视频相关的事
@@ -39,3 +40,6 @@ midi输出,为插件设置多路输出：https://docs.reaget.com/multi-output_fo
 子工程,Subproject 的简单运用：https://github.com/REAPER-CN/Sub-Fun,part,"子工程,subproject","子工程,subproject",30,
 安装扩展,如何安装REAPER各类扩展(VLC FFMPEG SWS REAPACK)：https://www.youtube.com/watch?v=gVbMbqGSB7E,part,"扩展,vlc,ffmpeg,sws,reapack",安装,30,
 波形缓存,如何管理波形缓存的生成路径：https://zhuanlan.zhihu.com/p/32447322（条目：把所有波形文件都放到另外的文件夹中）,part,"波形,缓存,reapeaks",路径,30,
+日经,"@我并发送 日经+下列参数（如 日经reapeaks）：
+reapeaks – reapeaks是什么如何单独存放",full,,,,
+,如何管理波形缓存的生成路径：https://zhuanlan.zhihu.com/p/32447322（条目：把所有波形文件都放到另外的文件夹中）,part,,日经reapeaks,,
