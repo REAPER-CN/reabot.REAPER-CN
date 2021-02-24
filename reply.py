@@ -70,11 +70,13 @@ async def _(ctx: Context_T):
                 msg = msg.replace('reaper', '')
 
                 def get_match_corpus(df, msg):
+                    rets = []
 
                     full_match_df = df[df.keyword.isin([msg])]
                     if full_match_df.shape[0] == 1:
                         if full_match_df.match_type.values[0] == 'full':
-                            return full_match_df.reply_content.values[0], 'content'
+                            rets.append((full_match_df.reply_content.values[0], 'content'))
+                            return rets
 
                     dfs = []
                     for i, r in df.iterrows():
@@ -92,7 +94,6 @@ async def _(ctx: Context_T):
                     # logging.warning(dfs)
                     all_df = pd.concat(dfs)
 
-                    rets = []
                     if pd.isnull(all_df.match_1_weight) is False:
                         fin_df = all_df[all_df.match_1_weight ==
                                         all_df.match_1_weight.max()]
