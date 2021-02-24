@@ -42,4 +42,4 @@ midi输出,为插件设置多路输出：https://docs.reaget.com/multi-output_fo
 波形缓存,如何管理波形缓存的生成路径：https://zhuanlan.zhihu.com/p/32447322（条目：把所有波形文件都放到另外的文件夹中）,part,"波形,缓存,reapeaks",路径,30,
 日经,"@我并发送 日经+下列参数（如 日经reapeaks）：
 reapeaks – reapeaks是什么如何单独存放",full,,,,
-日经reapeaks,如何管理波形缓存的生成路径：https://zhuanlan.zhihu.com/p/32447322（条目：把所有波形文件都放到另外的文件夹中）,part,,日经reapeaks,,
+日经reapeaks,如何管理波形缓存的生成路径：https://zhuanlan.zhihu.com/p/32447322（条目：把所有波形文件都放到另外的文件夹中）,part,"reapeaks,reapeak,repeaks,raepeak",日经,30,
