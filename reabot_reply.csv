@@ -41,5 +41,35 @@ midi输出,为插件设置多路输出：https://docs.reaget.com/multi-output_fo
 安装扩展,如何安装REAPER各类扩展(VLC FFMPEG SWS REAPACK)：https://www.youtube.com/watch?v=gVbMbqGSB7E,part,"扩展,vlc,ffmpeg,sws,reapack",安装,30,
 波形缓存,如何管理波形缓存的生成路径：https://zhuanlan.zhihu.com/p/32447322（条目：把所有波形文件都放到另外的文件夹中）,part,"波形,缓存,reapeaks",路径,30,
 日经,"@我并发送 日经+下列参数（如 日经reapeaks）：
-reapeaks – reapeaks是什么如何单独存放",full,,,,
+reapeaks – reapeaks是什么如何单独存放
+loop – item怎么取消循环
+波纹编辑 – 怎么取消打开波纹编辑
+播放指针 – 播放停止后光标位置不变
+更改鼠标 – 修改更改鼠标动作",full,,,,
 日经reapeaks,如何管理波形缓存的生成路径：https://zhuanlan.zhihu.com/p/32447322（条目：把所有波形文件都放到另外的文件夹中）,part,"reapeaks,reapeak,repeaks,raepeak",日经,30,
+日经loop,"单个item设置：
+1. 右键点击选中item
+2. 点击进入item properties
+3. 取消Loop source
+
+全局设置：
+1. 打开Preferences
+2. Project → Media Item Defaults
+3. 按需取消对应item类型的Loop source",part,"loop,循环",日经,30,
+日经ripple,"方法1：
+左上角找到Ripple editing，点灭图标取消，点亮图标开启（2个状态）。
+
+方法2：
+打开action list，搜索ripple editing，有更详细丰富的选择。",part,"ripple,波纹编辑,ripple edit",日经,30,
+日经播放光标,"按空格键为停止，光标回到播放初始位置；
+按Enter（回车键）为暂停，光标在暂停位置；
+可在action list搜索对应快捷键进行修改。",part,"播放光标,播放指针",日经,30,
+日经更改鼠标,"方法1（推荐）：
+1. 打开Preferences
+2. Editing Behavior → Mouse Modifiers
+3. 按需修改，包括生效窗口、鼠标具体动作。
+
+方法2：
+1. 打开action list
+2. 搜索具体鼠标动作
+3. 该方式适合在工具栏定制鼠标动作",part,"更改鼠标,修改鼠标操作,更改鼠标操作,修改鼠标",日经,30,
