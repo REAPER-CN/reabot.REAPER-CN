@@ -92,12 +92,17 @@ async def _(ctx: Context_T):
                     # logging.warning(dfs)
                     all_df = pd.concat(dfs)
 
+                    rets = []
                     if pd.isnull(all_df.match_1_weight) is False:
                         fin_df = all_df[all_df.match_1_weight ==
                                         all_df.match_1_weight.max()]
                         if fin_df.shape[0] != 0:
-                            return fin_df.corpus.values[0], 'corpus', fin_df.reply_content.values[0]
-                    return all_df.corpus.values[0], 'corpus', all_df.reply_content.values[0]
+                            rets.append((fin_df.corpus.values[0], 'corpus', fin_df.reply_content.values[0]))
+                            return rets
+                    else:
+                        for i, r in all_df.iterrows():
+                            rets.append((r.corpus, 'corpus', r.reply_content))
+                        return rets
 
                 pre_compare = get_match_corpus(reply_df, msg)
 
@@ -112,7 +117,12 @@ async def _(ctx: Context_T):
                             if point >= 0.3:
                                 return pre_compare[2]
                         return None
-                reply_content = get_reply_content(pre_compare, msg)
+                for x in pre_compare:
+                    fin_content = get_reply_content(x, msg)
+                    if fin_content != None:
+                        reply_content = fin_content
+                    else:
+                        reply_content = None
 
                 if reply_content is not None:
                     content = '\n' + reply_content

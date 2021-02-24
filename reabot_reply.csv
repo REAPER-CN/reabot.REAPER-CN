@@ -43,8 +43,8 @@ midi输出,为插件设置多路输出：https://docs.reaget.com/multi-output_fo
 日经,"@我并发送 日经+下列参数（如 日经reapeaks）：
 reapeaks – reapeaks是什么如何单独存放
 loop – item怎么取消循环
-波纹编辑 – 怎么取消打开波纹编辑
-播放指针 – 播放停止后光标位置不变
+波纹编辑 – 怎么取消item自动移位
+播放指针 – （Enter键）解决停止光标位置
 更改鼠标 – 修改更改鼠标动作",full,,,,
 日经reapeaks,如何管理波形缓存的生成路径：https://zhuanlan.zhihu.com/p/32447322（条目：把所有波形文件都放到另外的文件夹中）,part,"reapeaks,reapeak,repeaks,raepeak",日经,30,
 日经loop,"单个item设置：
