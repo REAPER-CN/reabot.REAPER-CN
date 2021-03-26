@@ -21,7 +21,7 @@ img 文件夹为存放图片的目录，
 
 - name
 
-​       为匹配的关键词，目前为完全匹配。
+  为匹配的关键词，目前为完全匹配。
 
 - desc
 
@@ -29,11 +29,9 @@ img 文件夹为存放图片的目录，
 
 - answer
 
-​        为答案。
+  为答案。
 
-​        默认为字符串，分行需要添加**\n**。
+  默认为字符串，分行需要添加**\n**。
 
-​        图片需要使用[CQ码](https://docs.nonebot.dev/glossary.html#cq-%E7%A0%81)。
-
-​        
+  图片需要使用[CQ码](https://docs.nonebot.dev/glossary.html#cq-%E7%A0%81)。
 
