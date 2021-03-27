@@ -31,9 +31,7 @@ img 文件夹为存放图片的目录，
 
 - answer
 
-  为答案。
-
-  默认为字符串，分行需要添加**\n**。
+  为答案，默认是字符串，分行直接换行即可。
 
   图片需要使用[CQ码](https://docs.nonebot.dev/glossary.html#cq-%E7%A0%81)。
 
