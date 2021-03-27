@@ -14,7 +14,7 @@ fxoffline,工程打开出错如何解决,"一般由插件出错导致，解决�
 File--Open project，在打开工程窗口下方勾选 Open with FX offline(recovery mode)，然后再打开
 [CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/fx_offline.png]
 之后工程将会以插件离线的模式打开，接下来可以通过逐一把插件取消Offline，来排查有问题的插件"
-视频跟随,如何实现视频画面跟随拖动位置而变化,从设置窗口以下位置开启，并可以设置变化的基准点，分别为
+视频跟随,如何实现视频画面跟随拖动位置而变化,"从设置窗口以下位置开启，并可以设置变化的基准点，分别为
 鼠标位置
 item的左边缘
 item的对起点
