@@ -7,3 +7,4 @@ midi键盘,在 REAPER 设置 midi 键盘,https://zhuanlan.zhihu.com/p/64069221
 自动淡入淡出,怎样关闭自动淡入淡出,"[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/auto_fade_in_out.png]"
 导出MP4,REAPER 如何导出 MP4,"在File name栏目，后面写上 .mp4
 [CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/export_mp4.png]"
+批量淡入淡出,同时调整多个item的淡入淡出,"打开设置页面--Mouse Modifiers--Media item fade/autocrossfade--left drag，把Default action改成Move fade (relative edge edit)"
