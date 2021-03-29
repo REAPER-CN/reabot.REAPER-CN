@@ -35,8 +35,8 @@ img 文件夹为存放图片的目录，
 
   图片需要使用[CQ码](https://docs.nonebot.dev/glossary.html#cq-%E7%A0%81)。
 
-## 词条更新日志
+## 词条贡献者
 
-| 日期       | 志愿者 | 词条量       |
-| ---------- | ------ | ------------ |
-| 2021-03-27 | noiZ   | 5            |
+<a href="https://github.com/REAPER-CN/reabot.REAPER-CN/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=REAPER-CN/reabot.REAPER-CN" />
+</a>
