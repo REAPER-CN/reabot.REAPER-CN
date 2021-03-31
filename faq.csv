@@ -3,22 +3,22 @@ reapeaks,统一管理波形文件,https://zhuanlan.zhihu.com/p/32447322
 导入视频,让 REAPER 支持更多视频格式,"https://zhuanlan.zhihu.com/p/31274984
 https://www.soundengine.cn/topic/24/%E8%AE%A9reaper%E6%94%AF%E6%8C%81%E6%9B%B4%E5%A4%9A%E8%A7%86%E9%A2%91%E6%A0%BC%E5%BC%8F-%E7%A7%BB%E5%8A%A8%E4%BE%BF%E6%90%BA%E7%89%88%E7%AF%87"
 midi键盘,在 REAPER 设置 midi 键盘,https://zhuanlan.zhihu.com/p/64069221
-信号流程,REAPER 的信号流程图,"[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/reaper_signal-flow.jpg]"
-自动淡入淡出,怎样关闭自动淡入淡出,"[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/auto_fade_in_out.png]"
+信号流程,REAPER 的信号流程图,"[CQ:image,file=reaper_signal-flow.jpg]"
+自动淡入淡出,怎样关闭自动淡入淡出,"[CQ:image,file=auto_fade_in_out.png]"
 导出MP4,REAPER 如何导出 MP4,"在Format下拉列表里选择ffmpeg格式，在File name栏目后面写上.mp4
-[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/export_mp4.png?flush_cache=True]"
-批量淡入淡出,同时调整多个item的淡入淡出,"[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/items_fades.png]"
+[CQ:image,file=export_mp4.png?flush_cache=True]"
+批量淡入淡出,同时调整多个item的淡入淡出,"[CQ:image,file=items_fades.png]"
 timebase,如何防止调整tempo时工程里的item移位,"按Alt+Enter打开Project Settings窗口，并按下图设置Timebase
-[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/timebase.png]"
+[CQ:image,file=timebase.png]"
 fxoffline,工程打开出错如何解决,"一般由插件出错导致，解决方法如下
 File--Open project，在打开工程窗口下方勾选 Open with FX offline(recovery mode)，然后再打开
-[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/fx_offline.png]
+[CQ:image,file=fx_offline.png]
 之后工程将会以插件离线的模式打开，接下来可以通过逐一把插件取消Offline，来排查有问题的插件"
 视频跟随,如何实现视频画面跟随拖动位置而变化,"从设置窗口以下位置开启，并可以设置变化的基准点，分别为
 鼠标位置
 item的左边缘
 item的对起点
-[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/video_follow.png]"
-分离音频,如何把视频中的音频分离出来,"[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/video_audio.png]"
+[CQ:image,file=video_follow.png]"
+分离音频,如何把视频中的音频分离出来,"[CQ:image,file=video_audio.png]"
 快捷键,如何查找修改快捷键,"菜单栏找下图菜单，默认快捷键是 Shift + /
-[CQ:image,file=https://raw.githubusercontent.com/REAPER-CN/reabot.REAPER-CN/master/img/why_not_actionlist.jpg]"
+[CQ:image,file=why_not_actionlist.jpg]"
