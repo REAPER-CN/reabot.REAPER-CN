@@ -22,3 +22,9 @@ item的对起点
 分离音频,如何把视频中的音频分离出来,"[CQ:image,file=video_audio.png]"
 快捷键,如何查找修改快捷键,"菜单栏找下图菜单，默认快捷键是 Shift + /
 [CQ:image,file=why_not_actionlist.jpg]"
+sws测速,用sws扩展来建立变速音频tempo map,"需要提前安装sws扩展。
+对下面命令定义快捷键：
+SWS/BR: Move closest grid line to mouse cursor (perform until shortcut released)
+按住快捷键的时候，移动鼠标，即可移动gird，让tempo改变。
+松开快捷键，即停止。
+[CQ:image,file=Warp_grid_mouse_sws.gif]"
