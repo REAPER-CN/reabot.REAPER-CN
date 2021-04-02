@@ -28,3 +28,9 @@ SWS/BR: Move closest grid line to mouse cursor (perform until shortcut released)
 按住快捷键的时候，移动鼠标，即可移动gird，让tempo改变。
 松开快捷键，即停止。
 [CQ:image,file=Warp_grid_mouse_sws.gif]"
+保持光标,如何让光标在停止播放时保持位置,"1.按Shift+/ 打开action list界面
+2.查找 Transport: Play/pause
+3.点击左下角的Add按钮，把他的快捷键设成空格，代替原来的Play/stop"
+音频变速,如果改变音频的速度,"[CQ:image,file=item_playrate.gif]
+[CQ:image,file=stretch_modifier.png]
+按下如上图跟Stretch item对应的功能键，拖拽item的边缘"
