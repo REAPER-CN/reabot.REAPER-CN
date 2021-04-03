@@ -34,3 +34,5 @@ SWS/BR: Move closest grid line to mouse cursor (perform until shortcut released)
 音频变速,如何改变音频的速度,"[CQ:image,file=item_playrate.gif]
 [CQ:image,file=stretch_modifier.png]
 按下如上图跟Stretch item对应的功能键，拖拽item的边缘"
+缩放波形,如何保持音量不变仅缩放波形大小,"1.按Shift+/ 打开action list界面
+2.查找 Increase peaks view gain 或 Decrease peaks view gain"
