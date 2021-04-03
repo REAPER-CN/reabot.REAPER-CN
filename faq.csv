@@ -45,7 +45,7 @@ SWS/BR: Move closest grid line to mouse cursor (perform until shortcut released)
 3.拖动这个item
 4.完成后记得关闭ripple模式(action list搜Set ripple editing off)
 [CQ:image,file=move_region.gif]"
-Reset,如何重置Reaper回到默认状态,"Portable版：
+reset,如何重置Reaper回到默认状态,"Portable版：
 找到Reaper的安装文件夹，删掉reaper.ini，下载安装包，覆盖安装回原来位置
 安装版：
 开始菜单找到以下项目点击即可
