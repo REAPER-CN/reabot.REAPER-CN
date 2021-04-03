@@ -36,3 +36,17 @@ SWS/BR: Move closest grid line to mouse cursor (perform until shortcut released)
 按下如上图跟Stretch item对应的功能键，拖拽item的边缘"
 缩放波形,如何保持音量不变仅缩放波形大小,"1.按Shift+/ 打开action list界面
 2.查找 Increase peaks view gain 或 Decrease peaks view gain"
+重采样,如何实现类似Cubase里的重采样效果,"选中要重采样的item，按F2打开item属性设置，把preserve pitch选项取消
+[CQ:image,file=no_preserve_pitch.png]
+之后对item进行变速，即可得到重采样的效果
+[CQ:image,file=item_playrate.gif]"
+移动region,如何同时移动多个region及其内容,"1.在region前放一个任意item（audio/midi/empty）
+2.打开ripple all track模式(action list搜Set ripple editing all tracks)
+3.拖动这个item
+4.完成后记得关闭ripple模式(action list搜Set ripple editing off)
+[CQ:image,file=move_region.gif]"
+Reset,如何重置Reaper回到默认状态,"Portable版：
+找到Reaper的安装文件夹，删掉reaper.ini，下载安装包，覆盖安装回原来位置
+安装版：
+开始菜单找到以下项目点击即可
+[CQ:image,file=reset_settings.png]"
