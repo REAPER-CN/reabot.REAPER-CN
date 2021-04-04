@@ -50,3 +50,15 @@ SWS/BR: Move closest grid line to mouse cursor (perform until shortcut released)
 安装版：
 开始菜单找到以下项目点击即可
 [CQ:image,file=reset_settings.png]"
+拖放,如何拖放item到采样器/其他DAW/其他软件,"首先要在鼠标修饰建设置里设置好以下的拖放动作
+[CQ:image,file=drag_to_others.png]
+红框里两个动作的区别是
+第一个直接以item当前的状态生成一个新的文件，然后拖放到采样器或其他DAW里
+第二个是把item的原始文件拖放过去，当前所有的修改均不会保留
+第一个动作在大部分情况都是有效的，但对AU无效，必须用第二个动作
+所以一般先用第一个动作，失败的话再尝试第二个"
+添加脚本,如何使用网上下载得到的脚本,"1.按Shift+/ 打开action list界面
+2.点击下方的New action按钮，点击Load Reascript
+3.定位到下载得到的脚本文件，点击打开按钮
+4.之后脚本就会被添加到action list中，可以和别的action一样使用和设置快捷键
+PS：脚本文件建议统一放在REAPER安装文件夹里的Scripts文件夹，方便管理"
