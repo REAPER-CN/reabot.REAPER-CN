@@ -62,3 +62,6 @@ SWS/BR: Move closest grid line to mouse cursor (perform until shortcut released)
 3.定位到下载得到的脚本文件，点击打开按钮
 4.之后脚本就会被添加到action list中，可以和别的action一样使用和设置快捷键
 PS：脚本文件建议统一放在REAPER安装文件夹里的Scripts文件夹，方便管理"
+光标跟随,如何设置/取消播放时光标自动跟随,右击导航栏，或单击Options菜单，勾选/取消 Automatically scroll view during playback
+屏蔽Alt,如何防止按下Alt键后焦点移到菜单栏,"在使用了一些含有Alt键的快捷键组合后，焦点会转移到菜单栏上，影响使用。可以通过以下选项屏蔽掉
+[CQ:image,file=prevent_alt.png]"
