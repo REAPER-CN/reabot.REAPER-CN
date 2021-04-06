@@ -65,3 +65,5 @@ PS：脚本文件建议统一放在REAPER安装文件夹里的Scripts文件夹�
 光标跟随,如何设置/取消播放时光标自动跟随,右击导航栏，或单击Options菜单，勾选/取消 Automatically scroll view during playback
 屏蔽Alt,如何防止按下Alt键后焦点移到菜单栏,"在使用了一些含有Alt键的快捷键组合后，焦点会转移到菜单栏上，影响使用。可以通过以下选项屏蔽掉
 [CQ:image,file=prevent_alt.png]"
+全局快捷键,如何设置全局快捷键,"打开action list
+[CQ:image,file=global_shortcut.png]"
