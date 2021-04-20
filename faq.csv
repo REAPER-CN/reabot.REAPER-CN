@@ -67,3 +67,5 @@ PS：脚本文件建议统一放在REAPER安装文件夹里的Scripts文件夹�
 [CQ:image,file=prevent_alt.png]"
 全局快捷键,如何设置全局快捷键,"打开action list
 [CQ:image,file=global_shortcut.png]"
+item间隔,设置item间隔、位置,"1. 需要有安装sws扩展
+2. action list搜索Reposition selected items"
