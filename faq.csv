@@ -69,3 +69,5 @@ PS：脚本文件建议统一放在REAPER安装文件夹里的Scripts文件夹�
 [CQ:image,file=global_shortcut.png]"
 item间隔,设置item间隔、位置,"1. 需要有安装sws扩展
 2. action list搜索Reposition selected items"
+拖不进,如何解决文件无法拖进REAPER,"右击REAPER的快捷方式，点击属性、兼容性，取消 以管理员身份运行此程序，确定
+[CQ:image,file=admin_mode.png]"
