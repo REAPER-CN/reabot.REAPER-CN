@@ -11,7 +11,7 @@ midi键盘,在 REAPER 设置 midi 键盘,https://zhuanlan.zhihu.com/p/64069221
 批量淡入淡出,同时调整多个item的淡入淡出,"[CQ:image,file=items_fades.png]"
 timebase,如何防止调整tempo时工程里的item移位,"按Alt+Enter打开Project Settings窗口，并按下图设置Timebase
 [CQ:image,file=timebase.png]"
-fxoffline,工程打开出错如何解决,"一般由插件出错导致，解决方法如下
+打开出错,工程打开出错如何解决,"一般由插件出错导致，解决方法如下
 File--Open project，在打开工程窗口下方勾选 Open with FX offline(recovery mode)，然后再打开
 [CQ:image,file=fx_offline.png]
 之后工程将会以插件离线的模式打开，接下来可以通过逐一把插件取消Offline，来排查有问题的插件"
@@ -70,5 +70,12 @@ PS：脚本文件建议统一放在REAPER安装文件夹里的Scripts文件夹�
 [CQ:image,file=global_shortcut.png]"
 item间隔,设置item间隔、位置,"1. 需要有安装sws扩展
 2. action list搜索Reposition selected items"
-管理员模式,如何取消管理员模式,"右击REAPER的快捷方式，点击属性、兼容性，取消 以管理员身份运行此程序，确定
-[CQ:image,file=admin_mode.png]"
+拖不进文件,如何解决文件拖不进REAPER,"右击REAPER的快捷方式，点击属性、兼容性，取消 以管理员身份运行此程序，确定
+[CQ:image,file=admin_mode.png]
+然后重启REAPER"
+H264,如何让导出H264编码的视频(仅限Windows系统),"打开群文件-扩展 REAPER JS脚本文件夹-下载ffmpeg shared.zip文件
+点开REAPER Option菜单-Show REAPER resource path in explorer
+打开userplugins文件夹
+把刚刚下载的zip文件里面所有内容解压到userplugins文件夹里
+重启reaper，将会在导出窗口里找到H264编码
+[CQ:image,file=H264.png]"
