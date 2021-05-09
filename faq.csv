@@ -79,3 +79,7 @@ H264,如何让导出H264编码的视频(仅限Windows系统),"打开群文件-�
 把刚刚下载的zip文件里面所有内容解压到userplugins文件夹里
 重启reaper，将会在导出窗口里找到H264编码
 [CQ:image,file=H264.png]"
+api文档,如何查询有关API的文档,"有三种方式可以获取有关api的文档资料
+1. 自带：点开菜单 Help--Reascript documentation 好处是不用联网，缺点是毫无排版杂乱无章
+2. https://mespotin.uber.space/Ultraschall/Reaper_Api_Documentation.html 好处是为不同类别的api建了分类，缺点是打开和搜索有点慢
+3. https://www.extremraym.com/cloud/reascript-doc/ 好处是搜索很方便，部分关键字做了颜色处理方便阅读，缺点是没有分类，且需要翻墙才能打开"
