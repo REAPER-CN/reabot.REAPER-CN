@@ -73,12 +73,12 @@ item间隔,设置item间隔、位置,"1. 需要有安装sws扩展
 拖不进文件,如何解决文件拖不进REAPER,"右击REAPER的快捷方式，点击属性、兼容性，取消 以管理员身份运行此程序，确定
 [CQ:image,file=admin_mode.png]
 然后重启REAPER"
-H264,如何让导出H264编码的视频(仅限Windows系统),"打开地址 https://github.com/BtbN/FFmpeg-Builds/releases，根据自己系统下载带"shared"字样的文件
+H264,如何让导出H264编码的视频(仅限Windows系统),"打开地址 https://github.com/BtbN/FFmpeg-Builds/releases，根据自己系统下载带shared字样的文件
 点开REAPER Option菜单-Show REAPER resource path in explorer
 打开userplugins文件夹
 解压下载了的zip文件，把bin文件夹里所有dll文件复制到userplugins文件夹里
 重启reaper，将会在导出窗口里找到H264编码
-如果出现导出视频没声音，请继续尝试上述地址里不同版本的shared压缩包
+如果出现导出视频没声音，请继续尝试上述地址里不同版本的shared压缩包"
 [CQ:image,file=H264.png]"
 api文档,如何查询有关API的文档,"有三种方式可以获取有关api的文档资料
 1. 自带：点开菜单 Help--Reascript documentation 好处是不用联网，缺点是毫无排版杂乱无章
