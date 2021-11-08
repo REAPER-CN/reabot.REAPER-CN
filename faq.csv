@@ -91,8 +91,8 @@ MP3标记,如何写入AU格式的MP3标记,https://forum.reaget.com/t/topic/718
 runtime,彻底解决runtime错误（来源第三方请自行鉴别风险）,http://www.pc6.com/softview/SoftView_104246.html
 怎么下载,REAPER安装包要怎么下载,官网下载页面：http://reaper.fm/download.php
 屏蔽弯音轮,用插件屏蔽弯音轮的方法,https://forum.reaget.com/t/topic/899
-一键切换轨道高度,toggle切换轨道高度,"1. 安装sws
+轨道高度,用sws一键切换轨道高度,"1. 安装sws
 2. 运行 Xenakios/SWS: Command parameters
 3. 设置 A B 参数
-[CQ:image,file=ab_toggle_track_height.png]
-4. 运行 Xenakios/SWS: Toggle selected tracks height A/B"
+4. 运行 Xenakios/SWS: Toggle selected tracks height A/B
+[CQ:image,file=ab_toggle_track_height.png]"
