@@ -96,3 +96,6 @@ runtime,彻底解决runtime错误（来源第三方请自行鉴别风险）,http
 3. 设置 A B 参数
 4. 运行 Xenakios/SWS: Toggle selected tracks height A/B
 [CQ:image,file=ab_toggle_track_height.png]"
+视频卡顿,解决视频播放卡顿的方法之一,"感谢牧笛的发现
+勾选上disable high-resolution
+[CQ:image,file=disable_high-resolution.png]"
