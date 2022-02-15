@@ -101,5 +101,5 @@ runtime,彻底解决runtime错误（来源第三方请自行鉴别风险）,http
 [CQ:image,file=disable_high-resolution.png]"
 sws,如何安装sws，"1. https://www.sws-extension.org/
 根据自己的系统下载sws安装包
-2. 关闭REAPER，把sws安装到reaper所在路径
+2. 关闭REAPER,把sws安装到reaper所在路径
 3. 重启REAPER"
