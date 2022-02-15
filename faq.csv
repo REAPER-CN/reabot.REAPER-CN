@@ -90,6 +90,15 @@ api文档,如何查询有关API的文档,"有三种方式可以获取有关api�
 MP3标记,如何写入AU格式的MP3标记,https://forum.reaget.com/t/topic/718
 runtime,彻底解决runtime错误（来源第三方请自行鉴别风险）,http://www.pc6.com/softview/SoftView_104246.html
 怎么下载,REAPER安装包要怎么下载,官网下载页面：http://reaper.fm/download.php
+屏蔽弯音轮,用插件屏蔽弯音轮的方法,https://forum.reaget.com/t/topic/899
+轨道高度,用sws一键切换轨道高度,"1. 安装sws
+2. 运行 Xenakios/SWS: Command parameters
+3. 设置 A B 参数
+4. 运行 Xenakios/SWS: Toggle selected tracks height A/B
+[CQ:image,file=ab_toggle_track_height.png]"
+视频卡顿,解决视频播放卡顿的方法之一,"感谢牧笛的发现
+勾选上disable high-resolution
+[CQ:image,file=disable_high-resolution.png]"
 sws,如何安装sws，"1. https://www.sws-extension.org/
 根据自己的系统下载sws安装包
 2. 关闭REAPER，把sws安装到reaper所在路径
