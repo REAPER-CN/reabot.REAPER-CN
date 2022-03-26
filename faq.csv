@@ -87,7 +87,10 @@ api文档,如何查询有关API的文档,"有三种方式可以获取有关api�
 2. 选择工程原来的路径
 3. 下方选项如图设置[CQ:image,file=saveas_setting.png]
 4. 覆盖保存工程，所有用到的文件都会复制到工程文件夹内"
-MP3标记,如何写入AU格式的MP3标记,https://forum.reaget.com/t/topic/718
+MP3标记,AU格式的MP3标记读写,"如何写入AU格式的MP3标记
+https://forum.reaget.com/t/topic/718
+如何读取AU格式的MP3标记
+https://forum.reaget.com/t/topic/1557/42"
 runtime,彻底解决runtime错误（来源第三方请自行鉴别风险）,http://www.pc6.com/softview/SoftView_104246.html
 怎么下载,REAPER安装包要怎么下载,官网下载页面：http://reaper.fm/download.php
 屏蔽弯音轮,用插件屏蔽弯音轮的方法,https://forum.reaget.com/t/topic/899
