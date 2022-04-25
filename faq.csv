@@ -106,3 +106,7 @@ sws,如何安装sws,"1. https://www.sws-extension.org/
 根据自己的系统下载sws安装包
 2. 关闭REAPER，把sws安装到reaper所在路径
 3. 重启REAPER"
+双声道,如何把单声道item转换成双声道,"顺序运行以下action
+Item: Apply track/take FX to items
+Take: Crop to active take in items
+或将以上action绑定到custom action内即可一键转换"
