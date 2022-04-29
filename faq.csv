@@ -110,3 +110,8 @@ sws,如何安装sws,"1. https://www.sws-extension.org/
 Item: Apply track/take FX to items
 Take: Crop to active take in items
 或将以上action绑定到custom action内即可一键转换"
+旧版,如何下载旧版REAPER,http://reaper.fm/download-old.php
+垂直拖动,如何在拖动item时仅允许垂直拖动,"[CQ:image,file=vertical.png]
+在鼠标修饰键里找到如图的位置
+图中示例就是在按下Ctrl键时仅允许垂直拖动item
+你可以选择你希望的按键组合"
