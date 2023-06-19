@@ -72,7 +72,12 @@ item间隔,设置item间隔、位置,"1. 需要有安装sws扩展
 2. action list搜索Reposition selected items"
 拖不进文件,如何解决文件拖不进REAPER,"右击REAPER的快捷方式，点击属性、兼容性，取消 以管理员身份运行此程序，确定
 [CQ:image,file=admin_mode.png]
-然后重启REAPER"
+然后重启REAPER
+如果以上方式无效，使用以下方法修改注册表
+按Windows键+R，打开“运行”对话框：输入regedit，回车或确定。
+依次找到以下键值：
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system
+右键“EnableLUA 选“修改”。把值改成0，确定。然后重启电脑"
 H264,如何让导出H264编码的视频(仅限Windows系统),"打开群文件-扩展、ReaperJS脚本、代码仓库，下载ffmpeg shared 4.3.1.zip
 点开REAPER Option菜单-Show REAPER resource path in explorer
 打开userplugins文件夹
