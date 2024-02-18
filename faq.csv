@@ -58,11 +58,11 @@ SWS/BR: Move closest grid line to mouse cursor (perform until shortcut released)
 第二个是把item的原始文件拖放过去，当前所有的修改均不会保留
 第一个动作在大部分情况都是有效的，但对AU无效，必须用第二个动作
 所以一般先用第一个动作，失败的话再尝试第二个"
-添加脚本,如何使用网上下载得到的脚本,"1.按Shift+/ 打开action list界面
+添加ReaScript,如何使用网上下载得到的ReaScript,"1.按Shift+/ 打开action list界面
 2.点击下方的New action按钮，点击Load Reascript
-3.定位到下载得到的脚本文件，点击打开按钮
-4.之后脚本就会被添加到action list中，可以和别的action一样使用和设置快捷键
-PS：脚本文件建议统一放在REAPER安装文件夹里的Scripts文件夹，方便管理"
+3.定位到下载得到的ReaScript文件，点击打开按钮
+4.之后ReaScript就会被添加到action list中，可以和别的action一样使用和设置快捷键
+PS：ReaScript文件建议统一放在REAPER安装文件夹里的Scripts文件夹，方便管理"
 光标跟随,如何设置/取消播放时光标自动跟随,右击导航栏，或单击Options菜单，勾选/取消 Automatically scroll view during playback
 屏蔽Alt,如何防止按下Alt键后焦点移到菜单栏,"在使用了一些含有Alt键的快捷键组合后，焦点会转移到菜单栏上，影响使用。可以通过以下选项屏蔽掉
 [CQ:image,file=prevent_alt.png]"
@@ -78,7 +78,7 @@ item间隔,设置item间隔、位置,"1. 需要有安装sws扩展
 依次找到以下键值：
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system
 右键“EnableLUA 选“修改”。把值改成0，确定。然后重启电脑"
-H264,如何让导出H264编码的视频(仅限Windows系统),"打开群文件-扩展、ReaperJS脚本、代码仓库，下载ffmpeg shared 4.3.1.zip
+H264,如何让导出H264编码的视频(仅限Windows系统),"打开群文件-扩展、ReaperJSReaScript、代码仓库，下载ffmpeg shared 4.3.1.zip
 点开REAPER Option菜单-Show REAPER resource path in explorer
 打开userplugins文件夹
 解压下载了的zip文件，把bin文件夹里所有dll文件复制到userplugins文件夹里
@@ -120,5 +120,5 @@ Take: Crop to active take in items
 在鼠标修饰键里找到如图的位置
 图中示例就是在按下Ctrl键时仅允许垂直拖动item
 你可以选择你希望的按键组合"
-表情映射,如何安装使用表情映射脚本,"在Ryusa的知乎专栏里：https://zhuanlan.zhihu.com/p/38166538
+表情映射,如何安装使用表情映射ReaScript,"在Ryusa的知乎专栏里：https://zhuanlan.zhihu.com/p/38166538
 如果有网络困难，安装到reapack里的url，可以使用镜像源的。"
