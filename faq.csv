@@ -58,7 +58,7 @@ SWS/BR: Move closest grid line to mouse cursor (perform until shortcut released)
 第二个是把item的原始文件拖放过去，当前所有的修改均不会保留
 第一个动作在大部分情况都是有效的，但对AU无效，必须用第二个动作
 所以一般先用第一个动作，失败的话再尝试第二个"
-添加ReaScript,如何使用网上下载得到的ReaScript,"1.按Shift+/ 打开action list界面
+添加脚本,如何使用网上下载得到的ReaScript,"1.按Shift+/ 打开action list界面
 2.点击下方的New action按钮，点击Load Reascript
 3.定位到下载得到的ReaScript文件，点击打开按钮
 4.之后ReaScript就会被添加到action list中，可以和别的action一样使用和设置快捷键
